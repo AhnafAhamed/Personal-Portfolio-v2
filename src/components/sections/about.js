@@ -126,7 +126,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'Vue', 'React', 'Node.js', 'HTML5', 'Scss'];
+  const skills = ['JavaScript (ES6+)', 'Vue', 'React', 'Storybook', 'Node.js', 'HTML5', 'Scss'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -144,8 +144,9 @@ const About = () => {
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working with few freelancing
-              clients and getting my first job. My main focus these days is learning vue.js,
-              react.js and other JavaScript libraries.
+              clients and getting my first job. My main focus other than my job these days is the
+              full stack web development bootcamp I am attending at Practicum by Yandex and also
+              learning vue.js, react.js and other JavaScript libraries along the way.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
